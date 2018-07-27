@@ -553,7 +553,7 @@
             this.LogoAnimator.SetDecoration(this.LblHora, BunifuAnimatorNS.DecorationType.None);
             this.LblHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblHora.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
-            this.LblHora.Location = new System.Drawing.Point(538, 32);
+            this.LblHora.Location = new System.Drawing.Point(528, 31);
             this.LblHora.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LblHora.Name = "LblHora";
             this.LblHora.Size = new System.Drawing.Size(29, 26);
@@ -581,7 +581,7 @@
             this.bunifuTransition2.SetDecoration(this.pictureBox1, BunifuAnimatorNS.DecorationType.None);
             this.LogoAnimator.SetDecoration(this.pictureBox1, BunifuAnimatorNS.DecorationType.None);
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(215, 71);
+            this.pictureBox1.Location = new System.Drawing.Point(228, 90);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(286, 269);
