@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{5A570E3C-5C97-4376-97CB-BE0964430ACD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Genesis</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FormularioRomana\.gitattributes" />
+    <Content Include="FormularioRomana\.gitignore" />
+    <Content Include="FormularioRomana\FormularioRomana\bin\Debug\BarcodeLib.dll" />
+    <Content Include="FormularioRomana\FormularioRomana\bin\Debug\Bunifu.Core.dll" />
+    <Content Include="FormularioRomana\FormularioRomana\bin\Debug\Bunifu_UI_v1.5.3.dll" />
+    <Content Include="FormularioRomana\FormularioRomana\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll" />
+    <Content Include="FormularioRomana\FormularioRomana\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll" />
+    <Content Include="FormularioRomana\FormularioRomana\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll" />
+    <Content Include="FormularioRomana\FormularioRomana\bin\Debug\FormularioRomana.exe" />
+    <Content Include="FormularioRomana\FormularioRomana\bin\Debug\FormularioRomana.pdb" />
+    <Content Include="FormularioRomana\FormularioRomana\bin\Debug\FormularioRomana.vshost.exe" />
+    <Content Include="FormularioRomana\FormularioRomana\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll" />
+    <Content Include="FormularioRomana\FormularioRomana\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll" />
+    <Content Include="FormularioRomana\FormularioRomana\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll" />
+    <Content Include="FormularioRomana\FormularioRomana\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll" />
+    <Content Include="FormularioRomana\FormularioRomana\bin\Debug\MetroFramework.Design.dll" />
+    <Content Include="FormularioRomana\FormularioRomana\bin\Debug\MetroFramework.dll" />
+    <Content Include="FormularioRomana\FormularioRomana\bin\Debug\MetroFramework.Fonts.dll" />
+    <Content Include="FormularioRomana\FormularioRomana\bin\Debug\Microsoft.ReportViewer.WinForms.dll" />
+    <Content Include="FormularioRomana\FormularioRomana\bin\Debug\Microsoft.SqlServer.Types.dll" />
+    <Content Include="FormularioRomana\FormularioRomana\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll" />
+    <Content Include="FormularioRomana\FormularioRomana\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll" />
+    <Content Include="FormularioRomana\FormularioRomana\bin\Debug\System.Web.DataVisualization.Design.dll" />
+    <Content Include="FormularioRomana\FormularioRomana\bin\Debug\System.Web.DataVisualization.dll" />
+    <Content Include="FormularioRomana\FormularioRomana\bin\Debug\System.Windows.Forms.DataVisualization.Design.dll" />
+    <Content Include="FormularioRomana\FormularioRomana\bin\Debug\System.Windows.Forms.DataVisualization.dll" />
+    <Content Include="FormularioRomana\FormularioRomana\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll" />
+    <Content Include="FormularioRomana\FormularioRomana\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll" />
+    <Content Include="FormularioRomana\FormularioRomana\Genesis.csproj" />
+    <Content Include="FormularioRomana\FormularioRomana\obj\Debug\21c8ddb0-30a0-4053-82d9-1b45a2431d40_FormularioRomana.exe" />
+    <Content Include="FormularioRomana\FormularioRomana\obj\Debug\FormularioRomana.csproj.FileListAbsolute.txt" />
+    <Content Include="FormularioRomana\FormularioRomana\obj\Debug\FormularioRomana.exe" />
+    <Content Include="FormularioRomana\FormularioRomana\obj\Debug\FormularioRomana.pdb" />
+    <Content Include="FormularioRomana\FormularioRomana\obj\Debug\Genesis.csproj.FileListAbsolute.txt" />
+    <Content Include="FormularioRomana\FormularioRomana\obj\Debug\TempPE\ANAKENADataSet.Designer.cs.dll" />
+    <Content Include="FormularioRomana\FormularioRomana\obj\Debug\TempPE\GenesisDataSet.Designer.cs.dll" />
+    <Content Include="FormularioRomana\FormularioRomana\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="FormularioRomana\FormularioRomana\Resources\Print 16.png" />
+    <Content Include="FormularioRomana\FormularioRomana\Resources\Print.jpg" />
+    <Content Include="FormularioRomana\FormularioRomana\Resources\Print2.jpg" />
+    <Content Include="FormularioRomana\FormularioRomana\Resources\Track.png" />
+    <Content Include="FormularioRomana\Genesis.sln" />
+    <Content Include="FormularioRomana\packages\BarcodeLib.1.3.0.0\lib\net20\BarcodeLib.dll" />
+    <Content Include="FormularioRomana\packages\BarcodeLib.1.3.0.0\lib\Release Notes.txt" />
+    <Content Include="FormularioRomana\packages\MaterialSkin.0.2.1\lib\MaterialSkin.dll" />
+    <Content Include="FormularioRomana\packages\MetroModernUI.1.3.5.0\lib\net20\MetroFramework.Design.dll" />
+    <Content Include="FormularioRomana\packages\MetroModernUI.1.3.5.0\lib\net20\MetroFramework.dll" />
+    <Content Include="FormularioRomana\packages\MetroModernUI.1.3.5.0\lib\net20\MetroFramework.Fonts.dll" />
+    <Content Include="FormularioRomana\packages\MetroModernUI.1.3.5.0\lib\net35\MetroFramework.Design.dll" />
+    <Content Include="FormularioRomana\packages\MetroModernUI.1.3.5.0\lib\net35\MetroFramework.dll" />
+    <Content Include="FormularioRomana\packages\MetroModernUI.1.3.5.0\lib\net35\MetroFramework.Fonts.dll" />
+    <Content Include="FormularioRomana\packages\MetroModernUI.1.3.5.0\lib\net40\MetroFramework.Design.dll" />
+    <Content Include="FormularioRomana\packages\MetroModernUI.1.3.5.0\lib\net40\MetroFramework.dll" />
+    <Content Include="FormularioRomana\packages\MetroModernUI.1.3.5.0\lib\net40\MetroFramework.Fonts.dll" />
+    <Content Include="FormularioRomana\packages\MetroModernUI.1.3.5.0\lib\net45\MetroFramework.Design.dll" />
+    <Content Include="FormularioRomana\packages\MetroModernUI.1.3.5.0\lib\net45\MetroFramework.dll" />
+    <Content Include="FormularioRomana\packages\MetroModernUI.1.3.5.0\lib\net45\MetroFramework.Fonts.dll" />
+    <Content Include="FormularioRomana\packages\Microsoft.Chart.Controls.4.7.2046\lib\net35\System.Web.DataVisualization.Design.dll" />
+    <Content Include="FormularioRomana\packages\Microsoft.Chart.Controls.4.7.2046\lib\net35\System.Web.DataVisualization.dll" />
+    <Content Include="FormularioRomana\packages\Microsoft.Chart.Controls.4.7.2046\lib\net35\System.Windows.Forms.DataVisualization.Design.dll" />
+    <Content Include="FormularioRomana\packages\Microsoft.Chart.Controls.4.7.2046\lib\net35\System.Windows.Forms.DataVisualization.dll" />
+    <Content Include="Proyecto Genesis\Genesis 1.0\.gitattributes" />
+    <Content Include="Proyecto Genesis\Genesis 1.0\.gitignore" />
+    <Content Include="Proyecto Genesis\Genesis 1.0\.git\ms-persist.xml" />
+    <Content Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0.sln" />
+    <Content Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\bin\Debug\Bunifu.Core.dll" />
+    <Content Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\bin\Debug\Bunifu_UI_v1.5.3.dll" />
+    <Content Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\bin\Debug\Genesis 1.0.exe" />
+    <Content Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\bin\Debug\Genesis 1.0.pdb" />
+    <Content Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\bin\Debug\Genesis 1.0.vshost.exe" />
+    <Content Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\Genesis Grafica.csproj" />
+    <Content Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\obj\Debug\Genesis 1.0.csproj.FileListAbsolute.txt" />
+    <Content Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\obj\Debug\Genesis 1.0.exe" />
+    <Content Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\obj\Debug\Genesis 1.0.pdb" />
+    <Content Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\obj\Debug\Genesis Grafica.csproj.FileListAbsolute.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FormularioRomana\FormularioRomana\App.config" />
+    <None Include="FormularioRomana\FormularioRomana\bin\Debug\FormularioRomana.exe.config" />
+    <None Include="FormularioRomana\FormularioRomana\bin\Debug\FormularioRomana.vshost.exe.config" />
+    <None Include="FormularioRomana\FormularioRomana\bin\Debug\FormularioRomana.vshost.exe.manifest" />
+    <None Include="FormularioRomana\FormularioRomana\GenesisDataSet.xsc">
+      <DependentUpon>GenesisDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FormularioRomana\FormularioRomana\GenesisDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GenesisDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FormularioRomana\FormularioRomana\GenesisDataSet.xss">
+      <DependentUpon>GenesisDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FormularioRomana\FormularioRomana\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="FormularioRomana\FormularioRomana\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="FormularioRomana\FormularioRomana\obj\Debug\FormularioRomana.csproj.GenerateResource.Cache" />
+    <None Include="FormularioRomana\FormularioRomana\obj\Debug\FormularioRomana.csprojResolveAssemblyReference.cache" />
+    <None Include="FormularioRomana\FormularioRomana\obj\Debug\Genesis.csproj.GenerateResource.Cache" />
+    <None Include="FormularioRomana\FormularioRomana\obj\Debug\Genesis.csprojResolveAssemblyReference.cache" />
+    <None Include="FormularioRomana\FormularioRomana\obj\Debug\RdlCompile.cache" />
+    <None Include="FormularioRomana\FormularioRomana\obj\Debug\RdlCompile.compiled" />
+    <None Include="FormularioRomana\FormularioRomana\packages.config" />
+    <None Include="FormularioRomana\FormularioRomana\Properties\Settings.settings" />
+    <None Include="FormularioRomana\packages\BarcodeLib.1.3.0.0\BarcodeLib.1.3.0.0.nupkg" />
+    <None Include="FormularioRomana\packages\BarcodeLib.1.3.0.0\lib\LICENSE" />
+    <None Include="FormularioRomana\packages\MaterialSkin.0.2.1\MaterialSkin.0.2.1.nupkg" />
+    <None Include="FormularioRomana\packages\MetroModernUI.1.3.5.0\MetroModernUI.1.3.5.0.nupkg" />
+    <None Include="FormularioRomana\packages\Microsoft.Chart.Controls.4.7.2046\Microsoft.Chart.Controls.4.7.2046.nupkg" />
+    <None Include="FormularioRomana\packages\Microsoft.Chart.Controls.4.7.2046\Supplemental Redist License_English.docx" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\COMMIT_EDITMSG" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\config" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\description" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\FETCH_HEAD" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\HEAD" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\hooks\applypatch-msg.sample" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\hooks\commit-msg.sample" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\hooks\post-update.sample" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\hooks\pre-applypatch.sample" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\hooks\pre-commit.sample" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\hooks\pre-push.sample" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\hooks\pre-rebase.sample" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\hooks\pre-receive.sample" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\hooks\prepare-commit-msg.sample" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\hooks\update.sample" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\index" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\info\exclude" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\logs\HEAD" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\logs\refs\heads\master" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\logs\refs\remotes\origin\master" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\objects\03\60709e7fc0d8021d8d40d4b47abf291f25f9ae" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\objects\1f\f0c423042b46cb1d617b81efb715defbe8054d" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\objects\20\74e4d77c89442b9079932b0e11c5ab0eecc3f9" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\objects\28\e8c2684c105cbd40936af922dad91ba61a0654" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\objects\2f\4dbccade59f91da69397f7f6c7c6e63bc19efd" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\objects\36\517ebe6dfb2fc2670204a43fa0ab61b3d2ac44" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\objects\39\645652af62950ebf3b28ec3a5400dcec30b1c4" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\objects\3c\4efe206bd0e7230ad0ae8396a3c883c8207906" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\objects\3c\ba904a4390392e368017e9305fa24ccd5de50f" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\objects\3f\0dbfcdc359916d9df25a35431d4ce20e015a21" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\objects\46\b1637d00c6628b6a02839a26c71db2a2dd56b3" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\objects\50\57c3701bab822c373f1766b3de4786e0f890fe" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\objects\68\5f144f6f27e02d1b2cec411ea7093cc62c12bf" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\objects\6e\c61dca466b8c69acdb4b640d036374c6f85fc1" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\objects\73\1f6de6c291e303814b02808f34140fe560e8e4" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\objects\7f\ded1a9e96f7a639b56e9b17628517c6045f7aa" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\objects\82\4e87a15a40127071e89a5c10f805199be115b3" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\objects\91\e3470e1645e6e8d0de6fe9f6b242f366e9a393" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\objects\91\f5312e6f806c6b76a87b234010d43ae0988bd8" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\objects\95\a186418346bef9c8c56b3a35e8cc16e46973f6" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\objects\9a\4ceed7024e6ae399a9b86d464c863b1e54336b" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\objects\aa\6fd8676f8afcedc9cf4e4c0ff7a38e834c4617" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\objects\ac\0d7abba4bf9a77060dc4cc818330cca641113a" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\objects\ae\5716f11b1870b1b78bc6ea6f4851fe99a4ae3f" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\objects\af\7dbebbacef595e3089c01c05671016c21a8304" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\objects\b3\721bc07e3a3d7911c175cea8472e638c85d4f1" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\objects\b5\81149c78502fdc1c262e1cb3c6477098f95fed" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\objects\bd\951ea5b2245a73000de3f55e7bb85d41927ea0" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\objects\c6\e2a15520dbac8179f164485a3998141709713f" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\objects\ce\652b25d81a21f2188f283f2bbab46215f07778" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\objects\d9\64947d690d6e6b578c8327702c4b559bb864ea" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\objects\f0\f354d4ebaa242e806f6f8d4fc698e678775366" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\objects\ff\8df6ca889649fdc748a57e00b4291d327f70c2" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\refs\heads\master" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.git\refs\remotes\origin\master" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.vs\Genesis 1.0\v14\.suo" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.vs\Genesis 1.0\v15\.suo" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.vs\Genesis 1.0\v15\Server\sqlite3\db.lock" />
+    <None Include="Proyecto Genesis\Genesis 1.0\.vs\Genesis 1.0\v15\Server\sqlite3\storage.ide" />
+    <None Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\App.config" />
+    <None Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\bin\Debug\Genesis 1.0.exe.config" />
+    <None Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\bin\Debug\Genesis 1.0.vshost.exe.config" />
+    <None Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\bin\Debug\Genesis 1.0.vshost.exe.manifest" />
+    <None Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\obj\Debug\Genesis 1.0.csproj.CopyComplete" />
+    <None Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\obj\Debug\Genesis 1.0.csproj.CoreCompileInputs.cache" />
+    <None Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\obj\Debug\Genesis 1.0.csproj.GenerateResource.Cache" />
+    <None Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\obj\Debug\Genesis 1.0.csprojResolveAssemblyReference.cache" />
+    <None Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\obj\Debug\Genesis Grafica.csproj.CoreCompileInputs.cache" />
+    <None Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\Properties\Settings.settings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormularioRomana\FormularioRomana\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioRomana\FormularioRomana\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioRomana\FormularioRomana\FormAdmin_Secado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioRomana\FormularioRomana\FormAdmin_Secado.Designer.cs">
+      <DependentUpon>FormAdmin_Secado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioRomana\FormularioRomana\FormBusquedaProductores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioRomana\FormularioRomana\FormBusquedaProductores.Designer.cs">
+      <DependentUpon>FormBusquedaProductores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioRomana\FormularioRomana\FormMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioRomana\FormularioRomana\FormMenu.Designer.cs">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioRomana\FormularioRomana\FormMenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioRomana\FormularioRomana\FormMenuPrincipal.Designer.cs">
+      <DependentUpon>FormMenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioRomana\FormularioRomana\FormPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioRomana\FormularioRomana\FormPrincipal.Designer.cs">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioRomana\FormularioRomana\FormRecepciónes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioRomana\FormularioRomana\FormRecepciónes.Designer.cs">
+      <DependentUpon>FormRecepciónes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioRomana\FormularioRomana\FormSecado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioRomana\FormularioRomana\FormSecado.Designer.cs">
+      <DependentUpon>FormSecado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioRomana\FormularioRomana\GenesisDataSet.cs">
+      <DependentUpon>GenesisDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioRomana\FormularioRomana\GenesisDataSet.Designer.cs">
+      <DependentUpon>GenesisDataSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioRomana\FormularioRomana\GenesisDataSet1.Designer.cs" />
+    <Compile Include="FormularioRomana\FormularioRomana\GenesisDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GenesisDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioRomana\FormularioRomana\InformeRomana.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioRomana\FormularioRomana\InformeRomana.Designer.cs">
+      <DependentUpon>InformeRomana.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioRomana\FormularioRomana\InformeRomana2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioRomana\FormularioRomana\InformeRomana2.Designer.cs">
+      <DependentUpon>InformeRomana2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioRomana\FormularioRomana\InformeTarjaSecado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioRomana\FormularioRomana\InformeTarjaSecado.Designer.cs">
+      <DependentUpon>InformeTarjaSecado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioRomana\FormularioRomana\Informe_Recepcion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioRomana\FormularioRomana\Informe_Recepcion.Designer.cs">
+      <DependentUpon>Informe_Recepcion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioRomana\FormularioRomana\MenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioRomana\FormularioRomana\MenuPrincipal.Designer.cs">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioRomana\FormularioRomana\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="FormularioRomana\FormularioRomana\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="FormularioRomana\FormularioRomana\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="FormularioRomana\FormularioRomana\Program.cs" />
+    <Compile Include="FormularioRomana\FormularioRomana\Properties\AssemblyInfo.cs" />
+    <Compile Include="FormularioRomana\FormularioRomana\Properties\Resources.Designer.cs" />
+    <Compile Include="FormularioRomana\FormularioRomana\Properties\Settings.Designer.cs" />
+    <Compile Include="FormularioRomana\FormularioRomana\UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormularioRomana\FormularioRomana\UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\Calidad.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\Calidad.Designer.cs">
+      <DependentUpon>Calidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\Maestro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\Maestro.Designer.cs">
+      <DependentUpon>Maestro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\Procesos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\Procesos.Designer.cs">
+      <DependentUpon>Procesos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\Program.cs" />
+    <Compile Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\Properties\AssemblyInfo.cs" />
+    <Compile Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\Properties\Resources.Designer.cs" />
+    <Compile Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\Properties\Settings.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormularioRomana\FormularioRomana\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioRomana\FormularioRomana\FormAdmin_Secado.resx">
+      <DependentUpon>FormAdmin_Secado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioRomana\FormularioRomana\FormBusquedaProductores.resx">
+      <DependentUpon>FormBusquedaProductores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioRomana\FormularioRomana\FormMenu.resx">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioRomana\FormularioRomana\FormMenuPrincipal.resx">
+      <DependentUpon>FormMenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioRomana\FormularioRomana\FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioRomana\FormularioRomana\FormRecepciónes.resx">
+      <DependentUpon>FormRecepciónes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioRomana\FormularioRomana\FormSecado.resx">
+      <DependentUpon>FormSecado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioRomana\FormularioRomana\InformeRomana.rdlc" />
+    <EmbeddedResource Include="FormularioRomana\FormularioRomana\InformeRomana.resx">
+      <DependentUpon>InformeRomana.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioRomana\FormularioRomana\InformeRomana2.rdlc" />
+    <EmbeddedResource Include="FormularioRomana\FormularioRomana\InformeRomana2.resx">
+      <DependentUpon>InformeRomana2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioRomana\FormularioRomana\InformeTarjaSecado.rdlc" />
+    <EmbeddedResource Include="FormularioRomana\FormularioRomana\InformeTarjaSecado.resx">
+      <DependentUpon>InformeTarjaSecado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioRomana\FormularioRomana\Informe_Recepcion.rdlc" />
+    <EmbeddedResource Include="FormularioRomana\FormularioRomana\Informe_Recepcion.resx">
+      <DependentUpon>Informe_Recepcion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioRomana\FormularioRomana\MenuPrincipal.resx">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioRomana\FormularioRomana\obj\Debug\FormularioRomana.Form1.resources" />
+    <EmbeddedResource Include="FormularioRomana\FormularioRomana\obj\Debug\FormularioRomana.FormAdmin_Secado.resources" />
+    <EmbeddedResource Include="FormularioRomana\FormularioRomana\obj\Debug\FormularioRomana.FormBusquedaProductores.resources" />
+    <EmbeddedResource Include="FormularioRomana\FormularioRomana\obj\Debug\FormularioRomana.FormMenuPrincipal.resources" />
+    <EmbeddedResource Include="FormularioRomana\FormularioRomana\obj\Debug\FormularioRomana.FormPrincipal.resources" />
+    <EmbeddedResource Include="FormularioRomana\FormularioRomana\obj\Debug\FormularioRomana.FormRecepciónes.resources" />
+    <EmbeddedResource Include="FormularioRomana\FormularioRomana\obj\Debug\FormularioRomana.FormSecado.resources" />
+    <EmbeddedResource Include="FormularioRomana\FormularioRomana\obj\Debug\FormularioRomana.InformeRomana.resources" />
+    <EmbeddedResource Include="FormularioRomana\FormularioRomana\obj\Debug\FormularioRomana.InformeRomana2.resources" />
+    <EmbeddedResource Include="FormularioRomana\FormularioRomana\obj\Debug\FormularioRomana.InformeTarjaSecado.resources" />
+    <EmbeddedResource Include="FormularioRomana\FormularioRomana\obj\Debug\FormularioRomana.Informe_Recepcion.resources" />
+    <EmbeddedResource Include="FormularioRomana\FormularioRomana\obj\Debug\FormularioRomana.Properties.Resources.resources" />
+    <EmbeddedResource Include="FormularioRomana\FormularioRomana\obj\Debug\FormularioRomana.UserControl1.resources" />
+    <EmbeddedResource Include="FormularioRomana\FormularioRomana\Properties\Resources.resx" />
+    <EmbeddedResource Include="FormularioRomana\FormularioRomana\UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\Calidad.resx">
+      <DependentUpon>Calidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\Maestro.resx">
+      <DependentUpon>Maestro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\obj\Debug\Genesis_1._0.Calidad.resources" />
+    <EmbeddedResource Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\obj\Debug\Genesis_1._0.FrmPrincipal.resources" />
+    <EmbeddedResource Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\obj\Debug\Genesis_1._0.Maestro.resources" />
+    <EmbeddedResource Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\obj\Debug\Genesis_1._0.Procesos.resources" />
+    <EmbeddedResource Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\obj\Debug\Genesis_1._0.Properties.Resources.resources" />
+    <EmbeddedResource Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\Procesos.resx">
+      <DependentUpon>Procesos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FormularioRomana\FormularioRomana\bin\Release\" />
+    <Folder Include="Proyecto Genesis\Genesis 1.0\.git\objects\info\" />
+    <Folder Include="Proyecto Genesis\Genesis 1.0\.git\objects\pack\" />
+    <Folder Include="Proyecto Genesis\Genesis 1.0\.git\refs\tags\" />
+    <Folder Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\bin\Release\" />
+    <Folder Include="Proyecto Genesis\Genesis 1.0\Genesis 1.0\obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
